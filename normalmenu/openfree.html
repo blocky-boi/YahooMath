@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+  <button onclick="openFree()">Open TV</button>
+<script>
+  function openFree() {
+  var win = window.open()
+  var url = "https://freeintertv.com" //Link for about:blank cloak
+  var iframe = win.document.createElement('iframe')
+  iframe.style.width = "100%";
+  iframe.style.height = "100%";
+  iframe.style.border = "none";
+  iframe.src = url
+  win.document.body.appendChild(iframe)
+  }
+</script>
+</body>
+</html>
