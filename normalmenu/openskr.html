@@ -1,20 +1,13 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-<body>
-  <button onclick="openSoccer()">Open</button>
-<script>
-  function openSoccer() {
-  var win = window.open()
-  var url = "https://hesgoal.com" //Link for about:blank cloak
-  var iframe = win.document.createElement('iframe')
-  iframe.style.width = "100%";
-  iframe.style.height = "100%";
-  iframe.style.border = "none";
-  iframe.src = url
-  win.document.body.appendChild(iframe)
-  }
-</script>
-</body>
+  <head>
+    <title>Redirect</title>
+    <link rel="stylesheet" href="loading.css">
+    <meta http-equiv="refresh" content="1; URL='http://hesgoal.com/"/>
+  </head>
+  <body>
+    <center>
+      <img src="loading.gif"> 
+    </center>
+  </body>
 </html>
